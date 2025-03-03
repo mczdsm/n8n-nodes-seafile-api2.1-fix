@@ -128,7 +128,7 @@ export async function execute(
 			p: '/',
 		},
 		body: {},
-		uri: `${baseURL}/api2/repos/${repo}/upload-link/`,
+		uri: `${baseURL}/api2.1/repos/${repo}/upload-link/`,
 		json: true,
 	};
 	const uploadLinkData = await this.helpers.requestWithAuthentication.call(
